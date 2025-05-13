@@ -95,6 +95,7 @@ s1 ifconfig -a
        valid_lft forever preferred_lft forever
     inet6 fe80::b896:90ff:fe43:9104/64 scope link proto kernel_ll 
        valid_lft forever preferred_lft forever
+```
 ```bash
 enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
@@ -363,7 +364,7 @@ exit
 sudo mn -c
 ```
 
-📷 (opcional) Print de finalização e limpeza da rede⬇️
+📷 Print de finalização e limpeza da rede⬇️
 ```bash
 *** Stopping 1 controllers
 c0 
